@@ -1,0 +1,169 @@
+.test {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.move {
+    transition: .4 ease;
+}
+.mytest {
+position:relative;
+left: 0px;
+top: 0px;
+}
+body{
+    background-color: aqua;
+}
+.slider {
+    width:100%;
+    min-height: 80vh ;
+    aspect-ratio: 16/9;
+    background: #000;
+}
+
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+.slider-content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+
+h1{
+    color: #fff;
+    font-size: 5em;
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+.slider-content p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.boxed{
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w60{
+    width: 60%;
+}
+.w25{
+    width:25%;
+}
+.w32{
+    width:32%;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.darck{
+    background: #000;
+    color:#fff
+}
+.text-center{
+    text-align: center ;
+}
+
+
+.skill{
+    background: #333;
+    display: flex;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill img{
+    width: 100px;
+    transition: .4s ease;
+}
+.skill h3{
+    margin-top: 10px;
+    color: #fff;
+}
+.gap20{
+    gap:20px;
+}
+
+
+.skill img:hover{
+    filter:brightness(50%)
+}
+.proj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+.proj-item {
+    margin-bottom: 20px;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.proj a:hover {
+    transition: 0.4s ease;
+    filter: brightness(50%);
+}
+.proj-video {
+    width: 320px; 
+    height: 240px;
+}
+
+.feu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github:hover{
+    transition: 0.4s ease;
+    filter: brightness(50%);
+}
+
+.projtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
